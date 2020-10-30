@@ -10,11 +10,16 @@
 
 }
 
+
 #main .carousel-inner img {
     max-height: 70vh;
     object-fit: cover;
     filter: grayscale(70%);
-
+    
+}
+.carousel-inner {
+    background-color: black;
+    z-index: 1;
 }
 #main .carousel{
     position: relative;
@@ -40,7 +45,26 @@
     color: white;
 }
 
-.overlay {
+.text-white {
     color:white;
-    margin-top;50px;
+    padding-top: 100px;
+    z-index: 1040;
 }
+
+#texto-boton {
+    text-shadow: 1px 1px 0.6px #494949 ; 
+   
+}
+
+ .text-white {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+
